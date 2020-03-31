@@ -1,5 +1,4 @@
 # typescript-on-browser-starter
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4cf13290-0bf6-4e80-a86e-7dd0d5371a5a/deploy-status)](https://app.netlify.com/sites/typescript-on-browser-starter/deploys)
 
 Starter for TypeScript on Web Browser
 
@@ -16,7 +15,7 @@ For users who wants to try TypeScript on Web Browser easily and stress free
 ```bash
 # You can change app name
 APP_NAME="myapp"
-git clone https://github.com/nwtgck/typescript-on-browser-starter.git $APP_NAME
+git clone https://github.com/luisfontes19/typescript-on-browser-starter.git $APP_NAME
 cd $APP_NAME
 rm -rf .git
 sed -i '' "s/typescript-on-browser-starter/${APP_NAME}/" package.json
